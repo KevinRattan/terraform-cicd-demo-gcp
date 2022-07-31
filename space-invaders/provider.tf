@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket  = "doug-rehnstrom-tfstate"
+    bucket  = "unique-name5"
     prefix  = "cicd-demo/state"
   }
 }
